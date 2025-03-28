@@ -96,7 +96,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                   child: const Padding(
                     padding: EdgeInsets.symmetric(horizontal: 100),
                     child: Text(
-                      'Tell Us a Bit About Yourself',
+                      'Tell Us a Bit About/nYourself',
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         color: AppConstant.cardBackground,
