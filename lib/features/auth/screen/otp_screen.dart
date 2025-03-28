@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:pinput/pinput.dart';
-import 'package:talent_app/common%20widgets/bottom_navigation_bar.dart';
-import 'package:talent_app/constants/app_constants.dart';
-import 'package:talent_app/features/auth/widgets/custom_elavatedbutton.dart';
+import 'package:takshasila_app/common%20widgets/bottom_navigation_bar.dart';
+import 'package:takshasila_app/constants/app_constants.dart';
+import 'package:takshasila_app/features/auth/widgets/custom_elavatedbutton.dart';
 
 class OtpScreen extends StatefulWidget {
   @override

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
-import 'package:talent_app/constants/app_constants.dart';
-import 'package:talent_app/features/auth/screen/otp_screen.dart';
-import 'package:talent_app/features/auth/widgets/custom_elavatedbutton.dart';
+import 'package:takshasila_app/constants/app_constants.dart';
+import 'package:takshasila_app/features/auth/screen/otp_screen.dart';
+import 'package:takshasila_app/features/auth/widgets/custom_elavatedbutton.dart';
 
 class PhoneNumberVerificationPage extends StatefulWidget {
   @override

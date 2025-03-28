@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:talent_app/constants/config.dart';
-import 'package:talent_app/constants/utils.dart';
-import 'package:talent_app/models/ongoing_testseries_model.dart';
+import 'package:takshasila_app/constants/config.dart';
+import 'package:takshasila_app/constants/utils.dart';
+import 'package:takshasila_app/models/ongoing_testseries_model.dart';
 
 class OngoingTestseriesServices {
   Future<OngoingTestsModel?> getOngoingTests({

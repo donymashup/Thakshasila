@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:talent_app/constants/app_constants.dart';
-import 'package:talent_app/controllers/is_subscribed_controller.dart';
-import 'package:talent_app/features/course_detailed/services/course_details_services.dart';
-import 'package:talent_app/features/course_detailed/widgets/classes_list.dart';
-import 'package:talent_app/features/course_detailed/widgets/enroll_button.dart';
-import 'package:talent_app/features/course_detailed/widgets/overview.dart';
-import 'package:talent_app/features/course_detailed/widgets/reviews.dart';
-import 'package:talent_app/models/course_details_model.dart';
+import 'package:takshasila_app/constants/app_constants.dart';
+import 'package:takshasila_app/controllers/is_subscribed_controller.dart';
+import 'package:takshasila_app/features/course_detailed/services/course_details_services.dart';
+import 'package:takshasila_app/features/course_detailed/widgets/classes_list.dart';
+import 'package:takshasila_app/features/course_detailed/widgets/enroll_button.dart';
+import 'package:takshasila_app/features/course_detailed/widgets/overview.dart';
+import 'package:takshasila_app/features/course_detailed/widgets/reviews.dart';
+import 'package:takshasila_app/models/course_details_model.dart';
 
 class AnimatedTabBarScreen extends StatefulWidget {
   final bool isSubscribed;

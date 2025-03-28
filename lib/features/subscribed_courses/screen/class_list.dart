@@ -2,11 +2,11 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:talent_app/constants/app_constants.dart';
-import 'package:talent_app/features/subscribed_courses/screen/miscillaneous_folder_screen.dart';
-import 'package:talent_app/features/subscribed_courses/screen/subject_list.dart';
-import 'package:talent_app/features/subscribed_courses/services/user_subscriptions_services.dart';
-import 'package:talent_app/models/classs_list_model.dart';
+import 'package:takshasila_app/constants/app_constants.dart';
+import 'package:takshasila_app/features/subscribed_courses/screen/miscillaneous_folder_screen.dart';
+import 'package:takshasila_app/features/subscribed_courses/screen/subject_list.dart';
+import 'package:takshasila_app/features/subscribed_courses/services/user_subscriptions_services.dart';
+import 'package:takshasila_app/models/classs_list_model.dart';
 
 
 

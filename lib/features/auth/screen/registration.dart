@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
 import 'package:pinput/pinput.dart';
-import 'package:talent_app/constants/app_constants.dart';
-import 'package:talent_app/features/auth/screen/complete_registration.dart';
-import 'package:talent_app/features/auth/screen/login.dart';
-import 'package:talent_app/features/auth/services/login_service.dart';
-import 'package:talent_app/features/auth/widgets/custom_button.dart';
-import 'package:talent_app/features/auth/widgets/custom_textfield.dart';
-import 'package:talent_app/features/auth/widgets/wave_widget.dart';
+import 'package:takshasila_app/constants/app_constants.dart';
+import 'package:takshasila_app/features/auth/screen/complete_registration.dart';
+import 'package:takshasila_app/features/auth/screen/login.dart';
+import 'package:takshasila_app/features/auth/services/login_service.dart';
+import 'package:takshasila_app/features/auth/widgets/custom_button.dart';
+import 'package:takshasila_app/features/auth/widgets/custom_textfield.dart';
+import 'package:takshasila_app/features/auth/widgets/wave_widget.dart';
 
 class RegistrationScreen extends StatefulWidget {
   const RegistrationScreen({super.key});

@@ -2,11 +2,11 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:talent_app/constants/app_constants.dart';
-import 'package:talent_app/constants/config.dart';
-import 'package:talent_app/constants/utils.dart';
-import 'package:talent_app/models/available_courses_model.dart';
-import 'package:talent_app/models/slider_images_model.dart';
+import 'package:takshasila_app/constants/app_constants.dart';
+import 'package:takshasila_app/constants/config.dart';
+import 'package:takshasila_app/constants/utils.dart';
+import 'package:takshasila_app/models/available_courses_model.dart';
+import 'package:takshasila_app/models/slider_images_model.dart';
 
 class HomeService {
   // Get available courses

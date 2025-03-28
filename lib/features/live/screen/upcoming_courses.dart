@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:intl/intl.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:talent_app/features/live/services/live_service.dart';
-import 'package:talent_app/models/live_model.dart';
+import 'package:takshasila_app/features/live/services/live_service.dart';
+import 'package:takshasila_app/models/live_model.dart';
 
 class UpcomingCourses extends StatefulWidget {
   const UpcomingCourses({super.key});

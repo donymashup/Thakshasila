@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:talent_app/features/home/services/home_service.dart';
-import 'package:talent_app/models/available_courses_model.dart';
+import 'package:takshasila_app/features/home/services/home_service.dart';
+import 'package:takshasila_app/models/available_courses_model.dart';
 import '../../../common widgets/loadingIndicator.dart';
 
 class HeaderList extends StatefulWidget {

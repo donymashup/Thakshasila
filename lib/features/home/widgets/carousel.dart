@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:talent_app/constants/app_constants.dart';
-import 'package:talent_app/features/home/services/home_service.dart';
-import 'package:talent_app/models/slider_images_model.dart';
+import 'package:takshasila_app/constants/app_constants.dart';
+import 'package:takshasila_app/features/home/services/home_service.dart';
+import 'package:takshasila_app/models/slider_images_model.dart';
 
 class CarouselImage extends StatefulWidget {
   const CarouselImage({super.key});
