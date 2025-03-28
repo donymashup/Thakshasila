@@ -25,14 +25,14 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
           )),
       backgroundColor: AppConstant.backgroundColor,
       actions: [
-        Padding(
-          padding: const EdgeInsets.only(right: 10.0),
-          child: Image.asset(
-            'assets/images/talentlogo.png',
-            height: 40,
-            width: 40,
-          ),
-        ),
+        // Padding(
+        //   padding: const EdgeInsets.only(right: 10.0),
+        //   child: Image.asset(
+        //     'assets/images/thakshasilalogo.jpg',
+        //     height: 40,
+        //     width: 40,
+        //   ),
+        // ),
         Padding(
           padding: const EdgeInsets.only(right: 10.0),
           child: IconButton(

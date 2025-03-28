@@ -91,7 +91,7 @@ class DrawerScreen extends StatelessWidget {
               decoration: BoxDecoration(color: AppConstant.cardBackground),
               child: Center(
                 child: Image.asset(
-                  'assets/images/talentlogo.png',
+                  'assets/images/thakshasilalogo.jpg',
                   height: 200,
                   width: 200,
                 ),
