@@ -2,11 +2,11 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:talent_app/constants/app_constants.dart';
-import 'package:talent_app/constants/utils.dart';
-import 'package:talent_app/features/auth/services/login_service.dart';
-import 'package:talent_app/features/profile/services/profile_service.dart';
-import 'package:talent_app/models/user_details_model.dart';
+import 'package:takshasila_app/constants/app_constants.dart';
+import 'package:takshasila_app/constants/utils.dart';
+import 'package:takshasila_app/features/auth/services/login_service.dart';
+import 'package:takshasila_app/features/profile/services/profile_service.dart';
+import 'package:takshasila_app/models/user_details_model.dart';
 
 class ProfileScreen extends StatefulWidget {
   @override

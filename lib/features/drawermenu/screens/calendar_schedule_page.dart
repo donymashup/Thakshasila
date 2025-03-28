@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:talent_app/constants/app_constants.dart';
-import 'package:talent_app/features/drawermenu/services/drawer_service.dart';
-import 'package:talent_app/models/timeLine_model.dart';
+import 'package:takshasila_app/constants/app_constants.dart';
+import 'package:takshasila_app/features/drawermenu/services/drawer_service.dart';
+import 'package:takshasila_app/models/timeLine_model.dart';
 
 class CalendarSchedulePage extends StatefulWidget {
   @override

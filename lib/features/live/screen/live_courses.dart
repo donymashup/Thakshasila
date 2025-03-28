@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:talent_app/common%20widgets/customappbar.dart';
-import 'package:talent_app/constants/app_constants.dart';
-import 'package:talent_app/features/drawermenu/screens/drawer.dart';
-import 'package:talent_app/features/live/widgets/live_custom_tabar.dart';
+import 'package:takshasila_app/common%20widgets/customappbar.dart';
+import 'package:takshasila_app/constants/app_constants.dart';
+import 'package:takshasila_app/features/drawermenu/screens/drawer.dart';
+import 'package:takshasila_app/features/live/widgets/live_custom_tabar.dart';
 
 class LiveClassesScreen extends StatelessWidget {
   const LiveClassesScreen({super.key});

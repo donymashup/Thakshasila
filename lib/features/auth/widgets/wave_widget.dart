@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:talent_app/constants/app_constants.dart';
-import 'package:talent_app/features/auth/widgets/wave_clipper.dart';
+import 'package:takshasila_app/constants/app_constants.dart';
+import 'package:takshasila_app/features/auth/widgets/wave_clipper.dart';
 
 class wave_widget extends StatelessWidget {
   final dynamic height;

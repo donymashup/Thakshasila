@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:talent_app/common%20widgets/onboarding_screens.dart';
-import 'package:talent_app/constants/app_constants.dart';
+import 'package:takshasila_app/common%20widgets/onboarding_screens.dart';
+import 'package:takshasila_app/constants/app_constants.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});

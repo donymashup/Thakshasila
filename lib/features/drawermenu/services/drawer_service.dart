@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:talent_app/constants/config.dart';
-import 'package:talent_app/models/timeLine_model.dart';
+import 'package:takshasila_app/constants/config.dart';
+import 'package:takshasila_app/models/timeLine_model.dart';
 
 class DrawerService {
   Future<TimeLineModel?> getTimeLine({

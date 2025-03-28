@@ -4,17 +4,17 @@ import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:lottie/lottie.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:talent_app/common%20widgets/customappbar.dart';
-import 'package:talent_app/constants/app_constants.dart';
-import 'package:talent_app/controllers/selected_course_controller.dart';
-import 'package:talent_app/controllers/user_controller.dart';
-import 'package:talent_app/features/course_detailed/screens/course_detail.dart';
-import 'package:talent_app/features/drawermenu/screens/drawer.dart';
-import 'package:talent_app/features/home/services/home_service.dart';
-import 'package:talent_app/features/home/widgets/carousel.dart';
-import 'package:talent_app/features/home/widgets/search_field.dart';
-import 'package:talent_app/features/subscribed_courses/screen/class_list.dart';
-import 'package:talent_app/models/available_courses_model.dart';
+import 'package:takshasila_app/common%20widgets/customappbar.dart';
+import 'package:takshasila_app/constants/app_constants.dart';
+import 'package:takshasila_app/controllers/selected_course_controller.dart';
+import 'package:takshasila_app/controllers/user_controller.dart';
+import 'package:takshasila_app/features/course_detailed/screens/course_detail.dart';
+import 'package:takshasila_app/features/drawermenu/screens/drawer.dart';
+import 'package:takshasila_app/features/home/services/home_service.dart';
+import 'package:takshasila_app/features/home/widgets/carousel.dart';
+import 'package:takshasila_app/features/home/widgets/search_field.dart';
+import 'package:takshasila_app/features/subscribed_courses/screen/class_list.dart';
+import 'package:takshasila_app/models/available_courses_model.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

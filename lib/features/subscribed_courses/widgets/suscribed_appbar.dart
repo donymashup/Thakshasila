@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:talent_app/constants/app_constants.dart';
+import 'package:takshasila_app/constants/app_constants.dart';
 
 class SubscribedAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String title;

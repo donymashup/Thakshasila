@@ -4,9 +4,9 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:talent_app/constants/app_constants.dart';
-import 'package:talent_app/features/subscribed_courses/services/user_subscriptions_services.dart';
-import 'package:talent_app/models/miscellaneous_folder_model.dart';
+import 'package:takshasila_app/constants/app_constants.dart';
+import 'package:takshasila_app/features/subscribed_courses/services/user_subscriptions_services.dart';
+import 'package:takshasila_app/models/miscellaneous_folder_model.dart';
 
 class MiscellaneousFolderScreen extends StatefulWidget {
   final String courseId;

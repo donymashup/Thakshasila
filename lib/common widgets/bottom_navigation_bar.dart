@@ -3,12 +3,12 @@ import 'package:curved_labeled_navigation_bar/curved_navigation_bar_item.dart';
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:talent_app/constants/app_constants.dart';
-import 'package:talent_app/features/auth/services/login_service.dart';
-import 'package:talent_app/features/home/screen/home_screen.dart';
-import 'package:talent_app/features/live/screen/live_courses.dart';
-import 'package:talent_app/features/subscribed_courses/screen/my_courses.dart';
-import 'package:talent_app/features/test_series/screens/test_series.dart';
+import 'package:takshasila_app/constants/app_constants.dart';
+import 'package:takshasila_app/features/auth/services/login_service.dart';
+import 'package:takshasila_app/features/home/screen/home_screen.dart';
+import 'package:takshasila_app/features/live/screen/live_courses.dart';
+import 'package:takshasila_app/features/subscribed_courses/screen/my_courses.dart';
+import 'package:takshasila_app/features/test_series/screens/test_series.dart';
 
 class CustomBottomNavigation extends StatefulWidget {
   const CustomBottomNavigation({super.key});

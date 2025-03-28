@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:talent_app/constants/app_constants.dart';
-import 'package:talent_app/constants/config.dart';
-import 'package:talent_app/controllers/user_controller.dart';
+import 'package:takshasila_app/constants/app_constants.dart';
+import 'package:takshasila_app/constants/config.dart';
+import 'package:takshasila_app/controllers/user_controller.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class AttendMainTestScreen extends StatelessWidget {

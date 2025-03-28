@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:talent_app/constants/app_constants.dart';
-import 'package:talent_app/features/notification/services/notification_services.dart';
-import 'package:talent_app/models/notification_model.dart';
+import 'package:takshasila_app/constants/app_constants.dart';
+import 'package:takshasila_app/features/notification/services/notification_services.dart';
+import 'package:takshasila_app/models/notification_model.dart';
 
 class NotificationsPage extends StatelessWidget {
   final NotificationServices _notificationServices = NotificationServices();
