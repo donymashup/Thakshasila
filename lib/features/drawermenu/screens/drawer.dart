@@ -83,7 +83,7 @@ class DrawerScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Drawer(
       child: Container(
-        color: Colors.blueGrey[900],
+        color: Colors.blue[300],
         child: ListView(
           padding: EdgeInsets.zero,
           children: <Widget>[
