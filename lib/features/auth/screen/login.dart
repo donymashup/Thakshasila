@@ -110,8 +110,9 @@ class _LoginState extends State<Login> {
                     //const SizedBox(height: 8),
                     // Add Lottie animation here
                     Lottie.asset(
-                      'assets/lottie/loginlottie.json', // Replace with your Lottie animation asset path
+                      'assets/lottie/onboardingLottie.json', // Replace with your Lottie animation asset path
                       height: 300, // Adjust the height as needed
+                      repeat: false,
                     ),
                     const Text(
                       'Please enter your phone number and\npassword to continue',

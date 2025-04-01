@@ -15,29 +15,29 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
   final List<OnboardingPageModel> pages = [
     OnboardingPageModel(
-      imagePath: 'assets/images/O1.png',
+      imagePath: 'assets/images/onboarding1.png',
       title: 'Enter the World of E-Learning',
       description:
           'Begin Your Educational Journey With Access To A Diverse Range Of Courses.',
     ),
     OnboardingPageModel(
-      imagePath: 'assets/images/O2.png',
+      imagePath: 'assets/images/onboarding2.png',
       title: 'Personalize Your Learning Path',
       description:
           'Customize Your Learning With Progress Tracking, And Interactive Activities.',
     ),
     OnboardingPageModel(
-      imagePath: 'assets/images/O3.png',
+      imagePath: 'assets/images/onboarding3.png',
       title: 'Engage with Expert Instructors',
       description:
           'Connect With Knowledgeable Tutors For Personalized Guidance.',
     ),
-    OnboardingPageModel(
-      imagePath: 'assets/images/O4.png',
-      title: 'Embark on Your Learning Adventure',
-      description:
-          'Explore Interactive Lessons, Quizzes To Enhance Your Understanding.',
-    ),
+    // OnboardingPageModel(
+    //   imagePath: 'assets/images/O4.png',
+    //   title: 'Embark on Your Learning Adventure',
+    //   description:
+    //       'Explore Interactive Lessons, Quizzes To Enhance Your Understanding.',
+    // ),
   ];
 
   bool isFinished = false;
@@ -217,7 +217,7 @@ class ModernOnboardingPage extends StatelessWidget {
               children: [
                 Container(
                   decoration: BoxDecoration(
-                    color: Color(0xFFF8F8F8),
+                    color: AppConstant.primaryColor,
                     borderRadius: BorderRadius.only(
                       bottomLeft: Radius.circular(30),
                       bottomRight: Radius.circular(30),
@@ -271,7 +271,7 @@ class ModernOnboardingPage extends StatelessWidget {
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
                         color: pageIndex == index
-                            ? Color(0xFF0B9573)
+                            ? AppConstant.primaryColor
                             : Colors.grey[300],
                       ),
                     ),
