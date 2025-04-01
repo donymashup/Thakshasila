@@ -75,7 +75,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
           ),
           currentIndex < pages.length
               ? Positioned(
-                  bottom: 20,
+                  bottom: 12,
                   left: 0,
                   right: 0,
                   child: Column(
