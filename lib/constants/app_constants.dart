@@ -7,13 +7,13 @@ class AppConstant {
   //static const primaryColor = Color(0xFFEF7B00); // Orange
 
 
-  static const primaryColor = Color(0xFFFF0000);  // Example vibrant red  
+  static const primaryColor =  Color(0xFF72C4F4); 
 
   // static final primaryColorLight =
   //     Color(0xFFEF7B00).withOpacity(0.8); // Light Orange
 
     static final primaryColorLight =
-      Color(0xFFFF0000).withOpacity(0.8); 
+      Color(0xFF72C4F4).withOpacity(0.8); 
 
 
 

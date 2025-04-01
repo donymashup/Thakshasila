@@ -72,7 +72,7 @@ class _CustomBottomNavigationState extends State<CustomBottomNavigation> {
           : SafeArea(
               child: CurvedNavigationBar(
                 backgroundColor: AppConstant.backgroundColor,
-                color: AppConstant.primaryColorLight,
+                color: AppConstant.primaryColor,
                 animationDuration: const Duration(milliseconds: 300),
                 height: 60,
                 index: _selectedIndex,
