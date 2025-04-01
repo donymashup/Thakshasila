@@ -193,7 +193,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   ElevatedButton(
                     onPressed: isUpdatingPassword ? null : updatePassword,
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: AppConstant.buttonupdate,
+                      backgroundColor: AppConstant.primaryColor,
                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
                       minimumSize: Size(double.infinity, 50),
                     ),
