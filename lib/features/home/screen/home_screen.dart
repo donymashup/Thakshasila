@@ -108,7 +108,7 @@ Widget _categoryHeader() {
                   },
                   selectedColor: AppConstant.secondaryColorLight,
                   backgroundColor: Colors.grey[300],
-                  checkmarkColor: Colors.white, // Set tick color to white
+                  showCheckmark: false, // Set tick color to white
                 ),
               );
             },

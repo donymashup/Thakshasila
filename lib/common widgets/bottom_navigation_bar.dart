@@ -1,7 +1,5 @@
-import 'package:curved_labeled_navigation_bar/curved_navigation_bar.dart';
-import 'package:curved_labeled_navigation_bar/curved_navigation_bar_item.dart';
-import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
+import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:takshasila_app/constants/app_constants.dart';
 import 'package:takshasila_app/features/auth/services/login_service.dart';
@@ -19,8 +17,8 @@ class CustomBottomNavigation extends StatefulWidget {
 
 class _CustomBottomNavigationState extends State<CustomBottomNavigation> {
   int _selectedIndex = 0;
-
   bool isLoading = true;
+
   static final List<Widget> _widgetOptions = <Widget>[
     HomeScreen(),
     MyCourses(),
@@ -69,73 +67,32 @@ class _CustomBottomNavigationState extends State<CustomBottomNavigation> {
           : _widgetOptions.elementAt(_selectedIndex),
       bottomNavigationBar: isLoading
           ? null
-          : SafeArea(
-              child: CurvedNavigationBar(
-                backgroundColor: AppConstant.backgroundColor,
-                color: AppConstant.primaryColor,
-                animationDuration: const Duration(milliseconds: 300),
-                height: 60,
-                index: _selectedIndex,
-                onTap: _onItemTapped,
-                items: <CurvedNavigationBarItem>[
-                  CurvedNavigationBarItem(
-                    child: Icon(Icons.home,
-                        size: 30,
-                        color: _selectedIndex == 0
-                            ? AppConstant.secondaryColor
-                            : Colors.white),
-                    label: 'Home',
-                    labelStyle: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      color: _selectedIndex == 0
-                          ? AppConstant.cardBackground
-                          : AppConstant.secondaryColor,
-                    ),
-                  ),
-                  CurvedNavigationBarItem(
-                    child: Icon(Icons.school_outlined,
-                        size: 30,
-                        color: _selectedIndex == 1
-                            ? AppConstant.secondaryColor
-                            : Colors.white),
-                    label: 'My Courses',
-                    labelStyle: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      color: _selectedIndex == 1
-                          ? AppConstant.cardBackground
-                          : AppConstant.secondaryColor,
-                    ),
-                  ),
-                  CurvedNavigationBarItem(
-                    child: Icon(Icons.live_tv,
-                        size: 30,
-                        color: _selectedIndex == 2
-                            ? AppConstant.secondaryColor
-                            : Colors.white),
-                    label: 'Live',
-                    labelStyle: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      color: _selectedIndex == 2
-                          ? AppConstant.cardBackground
-                          : AppConstant.secondaryColor,
-                    ),
-                  ),
-                  CurvedNavigationBarItem(
-                    child: Icon(FluentIcons.clipboard_task_list_16_regular,
-                        size: 30,
-                        color: _selectedIndex == 3
-                            ? AppConstant.secondaryColor
-                            : Colors.white),
-                    label: 'Test Series',
-                    labelStyle: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      color: _selectedIndex == 3
-                          ? AppConstant.cardBackground
-                          : AppConstant.secondaryColor,
-                    ),
-                  ),
-                ],
-              ),
+          : BottomNavigationBar(
+              items: const <BottomNavigationBarItem>[
+                BottomNavigationBarItem(
+                  icon: Icon(Icons.home),
+                  label: 'Home',
+                ),
+                BottomNavigationBarItem(
+                  icon: Icon(Icons.school_outlined),
+                  label: 'My Courses',
+                ),
+                BottomNavigationBarItem(
+                  icon: Icon(Icons.live_tv),
+                  label: 'Live',
+                ),
+                BottomNavigationBarItem(
+                  icon: Icon(FluentIcons.clipboard_task_list_16_regular),
+                  label: 'Test Series',
+                ),
+              ],
+              currentIndex: _selectedIndex,
+              selectedItemColor: AppConstant.primaryColor,
+              unselectedItemColor: Colors.grey,
+              onTap: _onItemTapped,
+              type: BottomNavigationBarType.fixed,
+              backgroundColor: AppConstant.cardBackground,
+              showUnselectedLabels: true,
             ),
     );
   }
