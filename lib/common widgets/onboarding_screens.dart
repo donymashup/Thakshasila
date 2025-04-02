@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:swipeable_button_view/swipeable_button_view.dart';
-import 'package:takshasila_app/common%20widgets/welcome_screen.dart';
 import 'package:takshasila_app/constants/app_constants.dart';
-import 'package:takshasila_app/features/auth/screen/login.dart'; // Adjust this import as needed
-
+import 'package:takshasila_app/features/auth/screen/login.dart';
 class OnboardingScreen extends StatefulWidget {
   @override
   _OnboardingScreenState createState() => _OnboardingScreenState();
@@ -15,29 +13,29 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
   final List<OnboardingPageModel> pages = [
     OnboardingPageModel(
-      imagePath: 'assets/images/onboarding1.png',
+      imagePath: 'assets/images/O1.png',
       title: 'Enter the World of E-Learning',
       description:
           'Begin Your Educational Journey With Access To A Diverse Range Of Courses.',
     ),
     OnboardingPageModel(
-      imagePath: 'assets/images/onboarding2.png',
+      imagePath: 'assets/images/O2.png',
       title: 'Personalize Your Learning Path',
       description:
           'Customize Your Learning With Progress Tracking, And Interactive Activities.',
     ),
     OnboardingPageModel(
-      imagePath: 'assets/images/onboarding3.png',
+      imagePath: 'assets/images/O3.png',
       title: 'Engage with Expert Instructors',
       description:
           'Connect With Knowledgeable Tutors For Personalized Guidance.',
     ),
-    // OnboardingPageModel(
-    //   imagePath: 'assets/images/O4.png',
-    //   title: 'Embark on Your Learning Adventure',
-    //   description:
-    //       'Explore Interactive Lessons, Quizzes To Enhance Your Understanding.',
-    // ),
+    OnboardingPageModel(
+      imagePath: 'assets/images/O4.png',
+      title: 'Embark on Your Learning Adventure',
+      description:
+          'Explore Interactive Lessons, Quizzes To Enhance Your Understanding.',
+    ),
   ];
 
   bool isFinished = false;
@@ -75,7 +73,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
           ),
           currentIndex < pages.length
               ? Positioned(
-                  bottom: 12,
+                  bottom: 20,
                   left: 0,
                   right: 0,
                   child: Column(
@@ -217,7 +215,7 @@ class ModernOnboardingPage extends StatelessWidget {
               children: [
                 Container(
                   decoration: BoxDecoration(
-                    color: AppConstant.primaryColor,
+                    color: Color(0xFFF8F8F8),
                     borderRadius: BorderRadius.only(
                       bottomLeft: Radius.circular(30),
                       bottomRight: Radius.circular(30),
@@ -271,7 +269,7 @@ class ModernOnboardingPage extends StatelessWidget {
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
                         color: pageIndex == index
-                            ? AppConstant.primaryColor
+                            ? Color(0xFF0B9573)
                             : Colors.grey[300],
                       ),
                     ),
