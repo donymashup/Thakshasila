@@ -84,7 +84,7 @@ class DrawerScreen extends StatelessWidget {
     return Drawer(
       child: Container(
 
-        color: Colors.blue[300],
+        color: AppConstant.cardBackground,
         child: ListView(
           padding: EdgeInsets.zero,
           children: <Widget>[
@@ -99,9 +99,9 @@ class DrawerScreen extends StatelessWidget {
               ),
             ),
             ListTile(
-              leading: const Icon(FluentIcons.data_trending_24_regular,color: Colors.white),
+              leading: const Icon(FluentIcons.data_trending_24_regular,color: Colors.black),
               title: const Text('Student Performance Index',
-                  style: TextStyle(color: Colors.white)),
+                  style: TextStyle(color: Colors.black)),
               onTap: () {
                 Navigator.push(
                   context,
@@ -112,9 +112,9 @@ class DrawerScreen extends StatelessWidget {
               },
             ),
             ListTile(
-              leading: const Icon(FluentIcons.timeline_24_regular,color: Colors.white),
+              leading: const Icon(FluentIcons.timeline_24_regular,color: Colors.black),
               title: const Text('Timeline',
-               style: TextStyle(color: Colors.white)),
+               style: TextStyle(color: Colors.black)),
               onTap: () {
                 Navigator.push(
                   context,
@@ -125,8 +125,8 @@ class DrawerScreen extends StatelessWidget {
             ),
             const Divider(),
             ListTile(
-              leading: const Icon(Icons.info_outline,color: Colors.white),
-              title: const Text('About Us', style: TextStyle(color: Colors.white)),
+              leading: const Icon(Icons.info_outline,color: Colors.black),
+              title: const Text('About Us', style: TextStyle(color: Colors.black)),
               onTap: () {
                 Navigator.push(
                   context,
@@ -135,8 +135,8 @@ class DrawerScreen extends StatelessWidget {
               },
             ),
             ListTile(
-              leading: const Icon(Icons.article_outlined,color: Colors.white),
-              title: const Text('Terms And Conditions', style: TextStyle(color: Colors.white)),
+              leading: const Icon(Icons.article_outlined,color: Colors.black),
+              title: const Text('Terms And Conditions', style: TextStyle(color: Colors.black)),
               onTap: () {
                 Navigator.push(
                   context,
@@ -145,8 +145,8 @@ class DrawerScreen extends StatelessWidget {
               },
             ),
             ListTile(
-              leading: const Icon(Icons.privacy_tip_outlined,color: Colors.white),
-              title: const Text('Privacy Policy', style: TextStyle(color: Colors.white)),
+              leading: const Icon(Icons.privacy_tip_outlined,color: Colors.black),
+              title: const Text('Privacy Policy', style: TextStyle(color: Colors.black)),
               onTap: () {
                 Navigator.push(
                   context,
@@ -155,16 +155,16 @@ class DrawerScreen extends StatelessWidget {
               },
             ),
             ListTile(
-              leading: const Icon(Icons.support_agent,color: Colors.white),
-              title: const Text('Customer Support', style: TextStyle(color: Colors.white)),
+              leading: const Icon(Icons.support_agent,color: Colors.black),
+              title: const Text('Customer Support', style: TextStyle(color: Colors.black)),
               onTap: () {
                 _showCustomerSupportDialog(context);
               },
             ),
             const Divider(),
             ListTile(
-              leading: const Icon(Icons.delete_forever,color: Colors.white),
-              title: const Text('Delete Account', style: TextStyle(color: Colors.white)),
+              leading: const Icon(Icons.delete_forever,color: Colors.black),
+              title: const Text('Delete Account', style: TextStyle(color: Colors.black)),
               onTap: () {
                 _showConfirmationDialog(
                   context,
@@ -195,8 +195,8 @@ class DrawerScreen extends StatelessWidget {
             ),
             const Divider(),
             ListTile(
-              leading: const Icon(Icons.logout,color: Colors.white),
-              title: const Text('Logout', style: TextStyle(color: Colors.white)),
+              leading: const Icon(Icons.logout,color: Colors.black),
+              title: const Text('Logout', style: TextStyle(color: Colors.black)),
               onTap: () {
                 showLogoutDialog(context); // Using the separate logout dialog
               },

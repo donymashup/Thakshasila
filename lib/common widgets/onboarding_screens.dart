@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:swipeable_button_view/swipeable_button_view.dart';
-import 'package:takshasila_app/common%20widgets/welcome_screen.dart';
 import 'package:takshasila_app/constants/app_constants.dart';
-import 'package:takshasila_app/features/auth/screen/login.dart'; // Adjust this import as needed
-
+import 'package:takshasila_app/features/auth/screen/login.dart';
 class OnboardingScreen extends StatefulWidget {
   @override
   _OnboardingScreenState createState() => _OnboardingScreenState();
@@ -33,12 +31,12 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       description:
           'Connect With Knowledgeable Tutors For Personalized Guidance.',
     ),
-    // OnboardingPageModel(
-    //   imagePath: 'assets/images/O4.png',
-    //   title: 'Embark on Your Learning Adventure',
-    //   description:
-    //       'Explore Interactive Lessons, Quizzes To Enhance Your Understanding.',
-    // ),
+    OnboardingPageModel(
+      imagePath: 'assets/images/O4.png',
+      title: 'Embark on Your Learning Adventure',
+      description:
+          'Explore Interactive Lessons, Quizzes To Enhance Your Understanding.',
+    ),
   ];
 
   bool isFinished = false;
@@ -76,7 +74,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
           ),
           currentIndex < pages.length
               ? Positioned(
-                  bottom: 12,
+                  bottom: 20,
                   left: 0,
                   right: 0,
                   child: Column(
@@ -272,7 +270,7 @@ class ModernOnboardingPage extends StatelessWidget {
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
                         color: pageIndex == index
-                            ? AppConstant.primaryColor
+                            ? Color(0xFF0B9573)
                             : Colors.grey[300],
                       ),
                     ),
