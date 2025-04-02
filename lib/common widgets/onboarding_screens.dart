@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 import 'package:swipeable_button_view/swipeable_button_view.dart';
 import 'package:takshasila_app/constants/app_constants.dart';
 import 'package:takshasila_app/features/auth/screen/login.dart';
@@ -13,19 +14,19 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
   final List<OnboardingPageModel> pages = [
     OnboardingPageModel(
-      imagePath: 'assets/images/O1.png',
+      imagePath: 'assets/lottie/onboardingLottie1.json',
       title: 'Enter the World of E-Learning',
       description:
           'Begin Your Educational Journey With Access To A Diverse Range Of Courses.',
     ),
     OnboardingPageModel(
-      imagePath: 'assets/images/O2.png',
+      imagePath: 'assets/lottie/onboardingLottie2.json',
       title: 'Personalize Your Learning Path',
       description:
           'Customize Your Learning With Progress Tracking, And Interactive Activities.',
     ),
     OnboardingPageModel(
-      imagePath: 'assets/images/O3.png',
+      imagePath: 'assets/lottie/onboardingLottie3.json',
       title: 'Engage with Expert Instructors',
       description:
           'Connect With Knowledgeable Tutors For Personalized Guidance.',
@@ -215,8 +216,8 @@ class ModernOnboardingPage extends StatelessWidget {
               children: [
                 Container(
                   decoration: BoxDecoration(
-                    color: Color(0xFFF8F8F8),
-                    borderRadius: BorderRadius.only(
+                    color: const Color.fromARGB(255, 153, 217, 254),
+                            borderRadius: BorderRadius.only(
                       bottomLeft: Radius.circular(30),
                       bottomRight: Radius.circular(30),
                     ),
@@ -224,7 +225,7 @@ class ModernOnboardingPage extends StatelessWidget {
                 ),
                 Padding(
                   padding: const EdgeInsets.all(20.0),
-                  child: Image.asset(
+                  child:Lottie.asset(
                     page.imagePath,
                     fit: BoxFit.contain,
                   ),
@@ -308,7 +309,7 @@ class OnboardingPage extends StatelessWidget {
             child: ClipPath(
               clipper: BottomRoundedClipper(),
               child: Center(
-                child: Image.asset(
+                child: Lottie.asset(
                   page.imagePath,
                   height: double.infinity,
                   fit: BoxFit.cover,
