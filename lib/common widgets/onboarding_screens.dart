@@ -3,6 +3,7 @@ import 'package:lottie/lottie.dart';
 import 'package:swipeable_button_view/swipeable_button_view.dart';
 import 'package:takshasila_app/constants/app_constants.dart';
 import 'package:takshasila_app/features/auth/screen/login.dart';
+
 class OnboardingScreen extends StatefulWidget {
   @override
   _OnboardingScreenState createState() => _OnboardingScreenState();
@@ -31,12 +32,12 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       description:
           'Connect With Knowledgeable Tutors For Personalized Guidance.',
     ),
-    OnboardingPageModel(
-      imagePath: 'assets/images/O4.png',
-      title: 'Embark on Your Learning Adventure',
-      description:
-          'Explore Interactive Lessons, Quizzes To Enhance Your Understanding.',
-    ),
+    // OnboardingPageModel(
+    //   imagePath: 'assets/images/O4.png',
+    //   title: 'Embark on Your Learning Adventure',
+    //   description:
+    //       'Explore Interactive Lessons, Quizzes To Enhance Your Understanding.',
+    // ),
   ];
 
   bool isFinished = false;
@@ -217,7 +218,7 @@ class ModernOnboardingPage extends StatelessWidget {
                 Container(
                   decoration: BoxDecoration(
                     color: const Color.fromARGB(255, 153, 217, 254),
-                            borderRadius: BorderRadius.only(
+                    borderRadius: BorderRadius.only(
                       bottomLeft: Radius.circular(30),
                       bottomRight: Radius.circular(30),
                     ),
@@ -225,7 +226,7 @@ class ModernOnboardingPage extends StatelessWidget {
                 ),
                 Padding(
                   padding: const EdgeInsets.all(20.0),
-                  child:Lottie.asset(
+                  child: Lottie.asset(
                     page.imagePath,
                     fit: BoxFit.contain,
                   ),
